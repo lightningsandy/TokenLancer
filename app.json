@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "TokenLancer",
+    "slug": "TokenLancer",
+    "description": "This app tokenize the time of freelancers and allow them to sell their time to others. This works both on android and ios. To run the app scan the QR code with the expo app installed in your mobile",
+    "version": "1.0.0",
+    "githubUrl": "https://github.com/lightningsandy/TokenLancer",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "tokenlancer"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.lightningsandy.TokenLancer"
+    }
+  }
+}
